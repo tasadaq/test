@@ -17,8 +17,8 @@ test:
 
 production:
   <<: *default
-  database: <%= ENV['RDS_DB_NAME'] %>
-  username: <%= ENV['RDS_USERNAME'] %>
-  password: <%= ENV['RDS_PASSWORD'] %>
-  host: <%= ENV['RDS_HOSTNAME'] %>
-port: <%= ENV['RDS_PORT'] %>
+  database: dac47vt0ejno5d
+  username: teaaovciwsqgnu
+  password: f9d03eb6fbcf468f3ffc329c0d7e6495c81bd043e26a587cae0197186215219a
+  host: ec2-23-21-227-73.compute-1.amazonaws.com
+  port: 5432
