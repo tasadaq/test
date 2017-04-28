@@ -1,0 +1,25 @@
+<table id="user_info">
+<thead>
+  <tr>
+    <td>Name</td>
+    <td>Class</td>
+    <td>Section</td>
+    <td>Email</td>
+    <td>Address</td>
+    <td>Phone</td>
+  </tr>
+
+</thead>
+  <tbody>
+    <% @stu.each do |user| %>
+    <tr>
+      <td><%= user.name %></td>
+      <td><%= user.klass %></td>
+      <td><%= user.section %></td>
+      <td><%= user.email %></td>
+      <td><%= user.address %></td>
+      <td><%= user.phone %></td>
+    </tr>
+    <% end -%>
+  </tbody>
+</table>
